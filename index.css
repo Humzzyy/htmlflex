@@ -12,7 +12,7 @@
     display: flex;
     background-color: black;
     color: aliceblue;
-    
+
     
     
 }
@@ -28,10 +28,12 @@ ul{
     width: 100%;
     list-style: none;
     align-items: center ;
+    
 }
 li:hover{
     color: gold;
     font-size: 30px;
+
 }
 .copyright{
     border: 1px solid;
@@ -61,13 +63,17 @@ button{
     border-radius: 80%;
     background-color: black;
     color: aliceblue;
-    cursor: 
+    cursor: pointer;
     
-    
-
 }
 button:hover{
 background-color: gold;
 color: black;
 }
-
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+}
